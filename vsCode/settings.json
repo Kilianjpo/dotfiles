@@ -1,0 +1,76 @@
+{
+  "editor.fontFamily": "MonoLisa",
+  "editor.codeLensFontFamily": "MonoLisa",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.fontSize": 15,
+  "files.autoSave": "onFocusChange",
+  "diffEditor.codeLens": true,
+  "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.fontFamily": "Hasklug Nerd Font Mono",
+  "task.problemMatchers.neverPrompt": false,
+  "remote.SSH.configFile": "C:\\Users\\popp_\\.ssh\\config",
+  "ruff.enable": true,
+  "ruff.nativeServer": "on",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
+    }
+  },
+  "files.associations": {
+    "*.min.*": "min",
+    "*.j2": "html",
+    "*.py": "python"
+  },
+  "[min]": {
+    "editor.formatOnSave": false
+  },
+  "html.format.contentUnformatted": "",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.iconTheme": "helium-icon-theme",
+  "editor.fontLigatures": true,
+  "git.autofetch": true,
+  "editor.minimap.autohide": true,
+  "window.autoDetectHighContrast": false,
+  "explorer.compactFolders": false,
+  "remote.SSH.maxReconnectionAttempts": 5,
+  "remote.SSH.path": "C:\\Windows\\System32\\OpenSSH\\ssh.exe",
+  "remote.SSH.lockfilesInTmp": false,
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.confirmSync": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "docker-desktop"
+  ],
+  "task.allowAutomaticTasks": "on",
+  "prettier.useTabs": true,
+  "explorer.confirmDelete": false,
+  "editor.insertSpaces": false,
+  "files.exclude": {
+    "**/.venv": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+}

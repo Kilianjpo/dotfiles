@@ -1,0 +1,99 @@
+# hide-cursor-when-typing = false
+
+theme = "dracula"
+
+padding-x = 3
+
+# padding-y = [30, 10]
+
+# env-vars = []
+
+confirm-before-quit = false
+
+# Cursor
+#
+# shape - Default cursor shape is 'block'
+# Other available options are: 'underline', 'beam' or 'hidden'
+#
+# blinking - Whether the cursor blinks. The default is false
+#
+# blinking-interval - Cursor update on milliseconds interval
+#
+[cursor]
+shape = 'block'
+blinking = false
+blinking-interval = 800
+
+[editor]
+program = "nano"
+args = []
+
+[window]
+width = 1000
+height = 600
+mode = "windowed"
+opacity = 0.7
+blur = false
+decorations = "enabled"
+
+# [fonts]
+# family = "cascadiamono"
+#
+# In case you want to specify any font feature:
+# [fonts]
+# features = ["ss02", "ss03", "ss05", "ss19"]
+#
+# Note: Font features do not have support to live reload on configuration,
+# so to reflect your changes, you will need to close and reopen Rio.
+#
+# You can also disable font hinting. Font hinting is enabled by default.
+# [fonts]
+# hinting = false
+#
+# You can also map the specified Unicode codepoints to a particular font.
+# [fonts]
+# symbol-map = [
+#   { start = "2297", end = "2299", font-family = "Cascadia Code NF" }
+# ]
+#
+[fonts]
+size = 16.5
+#
+# [fonts.regular]
+# family = "cascadiamono"
+# style = "Normal"
+# weight = 400
+#
+# [fonts.bold]
+# family = "cascadiamono"
+# style = "Normal"
+# weight = 800
+#
+# [fonts.italic]
+# family = "cascadiamono"
+# style = "Italic"
+# weight = 400
+#
+# [fonts.bold-italic]
+# family = "cascadiamono"
+# style = "Italic"
+# weight = 800
+
+[scroll]
+multiplier = 3.0
+divider = 1.0
+
+[navigation]
+mode = "Bookmark"
+clickable = true
+hide-if-single = false
+use-current-path = false
+# color-automation = []
+
+[bindings]
+keys = [
+  { key = "n", with = "alt", action = "CreateTab" },
+  { key = "right", with = "alt", action = "SelectNextTab" },
+  { key = "left", with = "alt", action = "SelectPrevTab" },
+  { key = "q", with = "alt", action = "CloseTab" }
+]

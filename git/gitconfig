@@ -1,0 +1,28 @@
+[branch]
+	sort = committerdate
+
+[column]
+	ui = auto
+
+[tag]
+	sort = version:refname
+
+[maintenance]
+	auto = true
+	strategy = incremental
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /opt/1Password/op-ssh-sign
+	program = C:\\Users\\popp_\\AppData\\Local\\1Password\\app\\8\\op-ssh-sign.exe
+[commit]
+	gpgsign = true
+[user]
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE/1IigN/Zw/Pu5fBfUPHmgrKD/yiubjQyGqXP0/Wd0O
+	name = Kilianjpo
+	email = 82637115+Kilianjpo@users.noreply.github.com
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
