@@ -1,0 +1,88 @@
+{
+    "editor.semanticHighlighting.enabled": true,
+    "editor.fontFamily": "MonoLisa",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.minimap.autohide": true,
+    "files.eol": "\n",
+    "files.simpleDialog.enable": false,
+    "files.autoSave": "onFocusChange",
+    "files.watcherExclude": {
+        "**/.venv/**": true
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.github": true,
+        "**/.venv": true,
+        "**/.vscode": true
+    },
+    "files.associations": {
+        "*.min.*": "min",
+        "*.j2": "html",
+    },
+    "[min]": {
+        "editor.formatOnSave": false
+    },
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.iconTheme": "catppuccin noctis icons",
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.editor.closeOnFileDelete": true,
+    "window.titleBarStyle": "custom",
+    "window.autoDetectHighContrast": false,
+    "window.titleSeparator": " | ",
+    "explorer.confirmDelete": false,
+    "explorer.confirmPasteNative": false,
+    "search.exclude": {
+        "**/.venv": true
+    },
+    "terminal.integrated.minimumContrastRatio": 1,
+    "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.fontFamily": "Hasklug Nerd Font Mono",
+    "terminal.integrated.localEchoExcludePrograms": [
+        "nano",
+        "edit"
+    ],
+    "terminal.integrated.allowedLinkSchemes": [
+        "file",
+        "http",
+        "https",
+        "mailto",
+        "vscode",
+        "vscode-insiders",
+        "docker-desktop"
+    ],
+    "catppuccin-noctis-icons.hidesExplorerArrows": false,
+    "catppuccin-noctis-icons.folders.associations": {
+        "templates": "folder-purple"
+    },
+    "github.gitProtocol": "ssh",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "python.envFile": "${workspaceFolder}/.venv",
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.fixAll": "explicit"
+        }
+    },
+    "roo-cline.allowedCommands": [
+        "npm test",
+        "npm install",
+        "tsc",
+        "git log",
+        "git diff",
+        "git show",
+        "flask"
+    ],
+    "roo-cline.deniedCommands": [],
+    "redhat.telemetry.enabled": false,
+    "docker.extension.enableComposeLanguageServer": false,
+    "ruff.enable": true,
+    "ruff.nativeServer": "on",
+}
