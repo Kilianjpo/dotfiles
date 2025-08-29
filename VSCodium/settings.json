@@ -1,11 +1,11 @@
 {
     "editor.semanticHighlighting.enabled": true,
-    "editor.fontFamily": "MonoLisa",
+    "editor.fontFamily": "FiraCode Nerd Font",
     "editor.fontLigatures": true,
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSaveMode": "modificationsIfAvailable",
-    "editor.minimap.autohide": true,
+    "editor.minimap.autohide": "none",
     "files.eol": "\n",
     "files.simpleDialog.enable": false,
     "files.autoSave": "onFocusChange",
@@ -20,7 +20,7 @@
     },
     "files.associations": {
         "*.min.*": "min",
-        "*.j2": "html",
+        "*.j2": "html"
     },
     "[min]": {
         "editor.formatOnSave": false
@@ -71,18 +71,8 @@
             "source.fixAll": "explicit"
         }
     },
-    "roo-cline.allowedCommands": [
-        "npm test",
-        "npm install",
-        "tsc",
-        "git log",
-        "git diff",
-        "git show",
-        "flask"
-    ],
-    "roo-cline.deniedCommands": [],
     "redhat.telemetry.enabled": false,
     "docker.extension.enableComposeLanguageServer": false,
     "ruff.enable": true,
-    "ruff.nativeServer": "on",
+    "ruff.nativeServer": "on"
 }
