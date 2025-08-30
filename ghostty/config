@@ -1,0 +1,5 @@
+theme = catppuccin-macchiato
+font-family = FiraCode Nerd Font
+window-height = 31
+window-width = 105
+background-opacity = 0.8

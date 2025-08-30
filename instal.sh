@@ -1,5 +1,8 @@
 #!/bin/fish
 
+# Chmod
+sudo chmod -r 777 ../dotfiles
+
 # Rate Mirrors
 sudo cachyos-rate-mirrors
 
