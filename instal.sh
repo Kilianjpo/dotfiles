@@ -8,8 +8,9 @@ sudo cachyos-rate-mirrors
 
 # Install packages
 sudo pacman -S --needed base-devel
-sudo pacman -S sbctl appmenu-gtk-module libdbusmenu-glib cachyos-emerald-kde-theme-git qogir-icon-theme ghostty 
-paru -R octopi vim vi totem rsync pv meld cachyos-packageinstaller micro gedit cachyos-zsh-config cachyos-micro-config alacritty firefox
+sudo pacman -S sbctl appmenu-gtk-module libdbusmenu-glib cachyos-emerald-kde-theme-git qogir-icon-theme
+for pkg in octopi vim vi totem rsync pv meld cachyos-packageinstaller micro gedit cachyos-zsh-config cachyos-micro-config alacritty firefox;
+sudo pacman -R $pkg; end
 
 # git
 cp -rf git/.gitconfig ~/.gitconfig
@@ -23,7 +24,15 @@ cd paru-aur
 makepkg -si
 cd ..
 rm -rf paru-aur
-cp -rf paru/paru.conf /etc/paru.conf
+sudo cp -rf paru/paru.conf /etc/paru.conf
+
+# ghostty
+sudo pacman -S ghostty
+cp -rf ghostty/config ~/.config/ghostty/config
+
+# gimgv
+paru qimgv-git
+paru qt-heif-image-plugin-git
 
 # 1Password
 paru 1password
