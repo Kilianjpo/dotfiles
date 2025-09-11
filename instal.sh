@@ -52,6 +52,12 @@ paru relagit
 # Beekeeper
 paru beekeeper
 
+# Zoxide
+paru zoxide
+
+#fzf
+paru fzf
+
 # VSCodium
 paru vscodium
 VSCodium/extensions.sh
